@@ -1,0 +1,22 @@
+ID Data,Tanggal Pelaporan,Waktu Pelaporan,Lokasi (Latitude),Lokasi (Longitude),Jumlah Kasus Terdeteksi,Tingkat Risiko (Rendah/Sedang/Tinggi),Keterangan Tambahan,ID Pengguna
+1,2/12/2023,9:07,-6.149334,106.889704,4,Rendah,Warga melaporkan demam.,USER0050
+2,7/31/2023,21:14,-6.095098,106.919142,0,Rendah,Banyak nyamuk di area ini.,USER0860
+3,9/10/2023,5:30,-6.124181,106.835625,2,Rendah,Pembersihan lingkungan rutin dilakukan.,USER0803
+4,9/20/2023,18:29,-6.139746,106.896207,2,Tinggi,Banyak nyamuk di area ini.,USER0159
+5,2/13/2023,1:20,-6.121608,106.891567,2,Tinggi,Ada genangan air di sekitar rumah.,USER0330
+6,11/15/2023,17:44,-6.085688,106.847929,0,Tinggi,Warga melaporkan demam.,USER0026
+7,9/24/2023,7:28,-6.077687,106.855142,0,Tinggi,Tidak ada laporan kasus baru.,USER0007
+8,1/4/2023,21:39,-6.142409,106.871251,1,Sedang,Ada genangan air di sekitar rumah.,USER0559
+9,3/14/2023,1:29,-6.165387,106.863771,4,Rendah,Pembersihan lingkungan rutin dilakukan.,USER0494
+10,10/17/2023,20:42,-6.080679,106.867734,1,Rendah,Warga melaporkan demam.,USER0857
+11,11/17/2023,18:22,-6.104951,106.860473,2,Sedang,Warga melaporkan demam.,USER0750
+12,2/12/2023,2:52,-6.156565,106.849606,0,Tinggi,Warga melaporkan demam.,USER0490
+13,3/1/2023,12:38,-6.157415,106.904544,0,Tinggi,Ada genangan air di sekitar rumah.,USER0134
+14,10/2/2023,15:44,-6.082254,106.886213,3,Sedang,Ada genangan air di sekitar rumah.,USER0372
+15,8/15/2023,8:13,-6.094268,106.848182,4,Tinggi,Banyak nyamuk di area ini.,USER0656
+16,12/15/2023,10:56,-6.098874,106.854264,2,Tinggi,Warga melaporkan demam.,USER0525
+17,12/9/2023,14:38,-6.133107,106.873068,0,Sedang,Pembersihan lingkungan rutin dilakukan.,USER0186
+18,12/19/2023,10:28,-6.105502,106.837477,1,Sedang,Tidak ada laporan kasus baru.,USER0653
+19,2/1/2023,12:23,-6.089779,106.839738,0,Rendah,Tidak ada laporan kasus baru.,USER0342
+20,5/5/2023,7:03,-6.127641,106.900371,2,Rendah,Banyak nyamuk di area ini.,USER0329
+,,,,,,,,
