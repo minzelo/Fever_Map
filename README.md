@@ -1,5 +1,18 @@
 # 🌡️ FeverMap: Sistem Deteksi Potensi DBD Berbasis Data
 
+<p align="center">
+  <img src="static/assets/FeverMap-logo.png" alt="FeverMap Logo" width="200"/>
+</p>
+
+<h1 align="center">FeverMap: Sistem Deteksi Potensi DBD Berbasis Data</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+  <img src="https://img.shields.io/badge/Category-Public_Health-blue.svg" alt="Health">
+  <img src="https://img.shields.io/badge/Data_Crowdsourcing-Enabled-orange.svg" alt="Crowdsourced">
+  <img src="https://img.shields.io/badge/Beginner-Friendly-yellow.svg" alt="Beginner">
+</p>
+
 **FeverMap** adalah proyek analitik data untuk mendeteksi potensi penyebaran **Demam Berdarah Dengue (DBD)** di wilayah Jakarta Selatan. Aplikasi ini mengintegrasikan berbagai sumber data seperti cuaca, kesehatan, sensor IoT, dan crowdsourced untuk menghasilkan deteksi dini risiko DBD.
 
 ## 📂 Struktur Proyek
