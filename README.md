@@ -103,6 +103,14 @@ Figma Link: [FeverMap Figma Design](https://www.figma.com/design/rKDVImv7z4E4ch8
 |-----------|---------|
 | ![](static/assets/dashboard.png) | ![](static/assets/profile.png) |
 
+## 🔮 Future Work
+
+Implementation of Machine Learning models such as **Random Forest** or **LSTM** can be explored to enhance FeverMap’s capabilities. Potential future improvements include:
+
+- **Predicting case surges** based on historical trends, weather patterns, and mosquito density.
+- **Classifying regions into risk zones** for better-targeted interventions.
+- **Applying anomaly detection** techniques to identify potential outbreak signals early.
+
 ## 👨‍💻 Developers
 
 - **minzelo** — Raihan Rahman Syah Putra (2702211941)  
