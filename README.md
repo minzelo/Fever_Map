@@ -84,3 +84,11 @@ Link Figma : https://www.figma.com/design/rKDVImv7z4E4ch8tAHeqqz/Untitled?node-i
 | Dashboard | Profil |
 |-----------|--------|
 | ![](static/assets/dashboard.png) | ![](static/assets/profile.png) |
+
+## 👨‍💻 Pengembang
+
+- **minzelo** — Raihan Rahman Syah Putra (2702211941)  
+- **JohnSmith-Cloud** — Algifary Noer Umaro (2702293506)  
+- **Agi-123** — Andragi Bianca (2702385791)  
+- **snakebytee** — Darrius Wirya Prajna (2702303791)  
+- **eyetolog1st** — Samuel Adrian Murwanto (2702244984)
