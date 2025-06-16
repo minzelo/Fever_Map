@@ -1,10 +1,10 @@
-# 🌡️ FeverMap: Sistem Deteksi Potensi DBD Berbasis Data
+# 🌡️ FeverMap: Data-Driven Dengue Detection System
 
 <p align="center">
   <img src="static/assets/FeverMap-logo.png" alt="FeverMap Logo" width="200"/>
 </p>
 
-<h1 align="center">FeverMap: Sistem Deteksi Potensi DBD Berbasis Data</h1>
+<h1 align="center">FeverMap: A Data-Driven Dengue Detection System</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
@@ -13,95 +13,106 @@
   <img src="https://img.shields.io/badge/Beginner-Friendly-yellow.svg" alt="Beginner">
 </p>
 
-**FeverMap** adalah proyek analitik data untuk mendeteksi potensi penyebaran **Demam Berdarah Dengue (DBD)** di wilayah Jakarta Selatan. Aplikasi ini mengintegrasikan berbagai sumber data seperti cuaca, kesehatan, sensor IoT, dan crowdsourced untuk menghasilkan deteksi dini risiko DBD.
+**FeverMap** is a data analytics project aimed at detecting the potential spread of **Dengue Fever** (DBD) in South Jakarta. The application integrates multiple data sources including weather, health records, IoT mosquito sensors, and crowdsourced symptom reports to provide early warnings of dengue risk.
 
-## 📂 Struktur Proyek
+---
+
+## 📂 Project Structure
 
 ```bash
 Fever_Map/
 ├── Datasets/
-│ ├── Data_Cuaca_Jakarta_Selatan.xlsx
-│ ├── Data_Health_Jakarta_Selatan.xlsx
-│ ├── Data_IoT_Sensor_DBD.xlsx
-│ └── Data_Crowdsourced_DBD.csv
+│   ├── Data_Cuaca_Jakarta_Selatan.xlsx
+│   ├── Data_Health_Jakarta_Selatan.xlsx
+│   ├── Data_IoT_Sensor_DBD.xlsx
+│   └── Data_Crowdsourced_DBD.csv
 └── Script Python/
-└── Script DBD App.py
+    └── Script DBD App.py
 ```
 
-## 🧠 Fitur Utama
+## 🧠 Key Features
 
-- 🧪 **Penggabungan Data Multi-Sumber**: Data cuaca, data rumah sakit, data jentik dari sensor IoT, dan pelaporan warga.
-- 📅 **Pengolahan Berdasarkan Tanggal**: Semua data diselaraskan berdasarkan waktu kejadian.
-- 🤖 **Logika Deteksi Potensi DBD**: Menggunakan kombinasi kondisi suhu, kelembaban, laporan jentik, dan jumlah kasus.
-- 📤 **Ekspor Otomatis ke Excel**: Hasil analisis disimpan dalam `Hasil_Deteksi_Potensi_DBD.xlsx`.
+- 🧪 **Multi-source Data Integration**: Combines weather data, medical reports, mosquito larvae sensors (IoT), and community-submitted data.
+- 📅 **Date-Based Synchronization**: Aligns all datasets using consistent time series.
+- 🤖 **Risk Detection Logic**: Applies rule-based logic using temperature, humidity, larvae reports, and dengue cases.
+- 📤 **Excel Export Output**: Automatically saves results to `Hasil_Deteksi_Potensi_DBD.xlsx`.
 
-## ⚙️ Cara Menjalankan
+## ⚙️ How to Run
 
-### 1. **Persiapkan Environment**
-Pastikan Anda memiliki `Python 3.x` serta pustaka berikut:
+### 1. Setup the Environment
+
+Make sure you have `Python 3.x` and install the required libraries:
 
 ```bash
 pip install pandas openpyxl
 ```
 
-### 2. Jalankan Script
-Masuk ke folder Script Python lalu jalankan:
+### 2. Run the Script
+
+Navigate to the `Script Python` folder and run:
 
 ```bash
 python "Script DBD App.py"
 ```
 
 ### 3. Output
-File Hasil_Deteksi_Potensi_DBD.xlsx akan muncul di folder yang sama setelah proses selesai.
 
-| Dataset | Deskripsi |
-|---------------|-------|
-| Data_Cuaca_Jakarta_Selatan | Informasi suhu dan kelembaban harian |
-| Data_Health_Jakarta_Selatan | Jumlah kasus DBD yang tercatat di fasilitas medis |
-| Data_IoT_Sensor_DBD | Sensor jentik nyamuk di lingkungan warga |
-| Data_Crowdsourced_DBD	| Laporan gejala demam dan jentik dari masyarakat |
+The result file `Hasil_Deteksi_Potensi_DBD.xlsx` will be generated in the same directory.
 
-## 📊 Data yang Digunakan
+## 📊 Datasets Used
 
-### Design UI/UX:
-Link Figma : https://www.figma.com/design/rKDVImv7z4E4ch8tAHeqqz/Untitled?node-id=0-1&t=lVTlF9tZXdhqyOqQ-1
+| Dataset                      | Description                                           |
+|-----------------------------|-------------------------------------------------------|
+| Data_Cuaca_Jakarta_Selatan  | Daily temperature and humidity data                  |
+| Data_Health_Jakarta_Selatan | Recorded dengue cases from medical facilities        |
+| Data_IoT_Sensor_DBD         | Mosquito larvae detection from IoT sensors           |
+| Data_Crowdsourced_DBD       | Symptom and larvae reports submitted by the public   |
 
-## 📸 Tampilan Antarmuka Aplikasi
+## 🎨 UI/UX Design
 
-### 🏠 Halaman Utama & Autentikasi
+Figma Link: [FeverMap Figma Design](https://www.figma.com/design/rKDVImv7z4E4ch8tAHeqqz/Untitled?node-id=0-1&t=lVTlF9tZXdhqyOqQ-1)
 
-| Halaman Depan | Login | Register |
-|---------------|-------|----------|
+## 📸 User Interface Preview
+
+### 🏠 Home & Authentication Pages
+
+| Home Page | Login | Register |
+|-----------|-------|----------|
 | ![](static/assets/front-page.png) | ![](static/assets/login.png) | ![](static/assets/register.png) |
 
-### 📝 Kuisioner & Hasil
+### 📝 Questionnaire & Results
 
-| Kuisioner | Hasil Kuisioner |
-|-----------|-----------------|
+| Questionnaire | Result |
+|---------------|--------|
 | ![](static/assets/questionaire.png) | ![](static/assets/questionaire-result.png) |
 
-### 🗺️ Peta Penyebaran
+### 🗺️ Dengue Risk Maps
 
 | Map 1 | Map 2 |
 |-------|-------|
 | ![](static/assets/map%201.png) | ![](static/assets/map%202.png) |
 
-### 🧠 Halaman Edukasi
+### 🧠 Educational Pages
 
-| Materi 1 | Materi 2 | Materi 3 |
-|----------|----------|----------|
+| Topic 1 | Topic 2 | Topic 3 |
+|---------|---------|---------|
 | ![](static/assets/education%201.png) | ![](static/assets/education%202.png) | ![](static/assets/education%203.png) |
 
-### 👤 Profil & Dashboard
+### 👤 Dashboard & Profile
 
-| Dashboard | Profil |
-|-----------|--------|
+| Dashboard | Profile |
+|-----------|---------|
 | ![](static/assets/dashboard.png) | ![](static/assets/profile.png) |
 
-## 👨‍💻 Pengembang
+## 👨‍💻 Developers
 
 - **minzelo** — Raihan Rahman Syah Putra (2702211941)  
 - **JohnSmith-Cloud** — Algifary Noer Umaro (2702293506)  
 - **Agi-123** — Andragi Bianca (2702385791)  
 - **snakebytee** — Darrius Wirya Prajna (2702303791)  
 - **eyetolog1st** — Samuel Adrian Murwanto (2702244984)
+
+---
+
+> For questions, feedback, or future development (e.g., real-time detection or map dashboards), feel free to open an issue or submit a pull request.
+
