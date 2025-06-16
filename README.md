@@ -10,7 +10,6 @@
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
   <img src="https://img.shields.io/badge/Category-Public_Health-blue.svg" alt="Health">
   <img src="https://img.shields.io/badge/Data_Crowdsourcing-Enabled-orange.svg" alt="Crowdsourced">
-  <img src="https://img.shields.io/badge/Beginner-Friendly-yellow.svg" alt="Beginner">
 </p>
 
 **FeverMap** is a data analytics project aimed at detecting the potential spread of **Dengue Fever** (DBD) in South Jakarta. The application integrates multiple data sources including weather, health records, IoT mosquito sensors, and crowdsourced symptom reports to provide early warnings of dengue risk.
